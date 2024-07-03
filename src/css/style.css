@@ -40,7 +40,12 @@ header h1{
 .navbar a:hover{
     color: var(--cor1);
 }
-
+main{
+  background-image: url(../img/vinho/dan-meyers-0AgtPoAARtE-unsplash.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 220vh;
+}
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -49,7 +54,7 @@ header h1{
   
   p {
     text-shadow: rgba(0, 0, 0, 0.26) 0px 3px 8px;
-    color: var(--cor0);
+    color: var(--cor2);
     font-size: 1rem;
     font-weight: bold;
     line-height: 1.5;
@@ -75,7 +80,7 @@ header h1{
   }
 
 .apresent-link{
-    background-color: var(--cor0);
+    background-color: var(--cor2);
     height: 30px;
     width: 150px;
     text-align: center;
@@ -87,22 +92,22 @@ header h1{
 .apresent-link a{
     text-decoration: none;
     font-weight:bold ;
-    color: var(--cor2);
+    color: var(--cor0);
     transition-duration: .5s;
 }
 
 .apresent-link a:hover{
     color: var(--cor1);
 }
+section{
+  display:flex;
+  margin-bottom: 50px;
+}
 section a {
   display: flex;
   width: 400px;
   height: 430px;
   margin: auto ;
-}
-section{
-  display:flex;
-  margin-bottom: 50px;
 }
 h2{
   text-align: center;
