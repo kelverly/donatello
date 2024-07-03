@@ -41,10 +41,11 @@ header h1{
     color: var(--cor1);
 }
 main{
+  height: 100vh;
   background-image: url(../img/vinho/dan-meyers-0AgtPoAARtE-unsplash.jpg);
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: 220vh;
+  background-size: cover;
 }
 .container {
     max-width: 1200px;
